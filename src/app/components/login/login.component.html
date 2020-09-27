@@ -1,0 +1,18 @@
+
+<div class="container">
+    <form action="" [formGroup]="loginForm">
+        <h2 class="header">Login</h2>
+        <div class="input-field">
+            <label for="email">Email : </label>
+            <input type="text" name="email" formControlName="email">
+        </div>
+        <div class="input-field">
+            <label for="password">Password : </label>
+            <input type="text" name="password" formControlName="password">
+        </div>
+        <button type="submit" (click)="login()">LOGIN</button>
+        <div class="form-addon">
+            No account ? <a routerLink="/register">Register Here</a>
+        </div>
+    </form>
+</div>

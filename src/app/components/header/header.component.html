@@ -1,0 +1,13 @@
+
+<div class="navbar" >
+    <a routerLink="/">Home</a>
+    <div class="nav-links" *ngIf="loggedIn">
+      <a routerLink="/dashboard">Dashboard</a>
+      <a (click)="logout()" style="cursor: pointer;">logout</a>
+    </div>
+    <div class="nav-links" *ngIf="!loggedIn">
+      <a routerLinkActive="link-active" routerLink="/register">Register</a>
+      <a routerLinkActive="link-active" routerLink="/login">Login</a>
+    </div>
+  </div>
+  

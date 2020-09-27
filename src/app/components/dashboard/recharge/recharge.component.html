@@ -1,0 +1,23 @@
+
+<div class="container">
+    <form action="" [formGroup]="rechargeForm">
+        <h2 class="header">Recharge</h2>
+        <div class="input-field">
+            <label for="mobile">Mobile : </label>
+            <input type="tel" name="mobile" formControlName="mobile">
+        </div>
+        <div class="input-field">
+            <label for="network">Network : </label>
+            <input type="text" name="network" formControlName="network">
+        </div>
+        <div class="input-field">
+            <label for="region">Region : </label>
+            <input type="text" name="region" formControlName="region">
+        </div>
+        <div class="input-field">
+            <label for="amount">Amount : </label>
+            <input type="text" name="amount" formControlName="amount">
+        </div>
+        <button type="submit" (click)="recharge()">Recharge</button>
+    </form>
+</div>

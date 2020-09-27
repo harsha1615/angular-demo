@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    text-align: center;
+    display: block;
+    background-color: black;
+}
+
+.nav-links{
+    display: inline;
+}
+
+.navbar a{
+    display: inline-block;
+    padding: 5px 15px;
+    color: white;
+    height: 100%;
+}
+
+a:hover, .link-active{
+    font-weight: bold;
+}
+
+.container{
+    padding: 15px;
+    margin: 15px auto;
+    border: 2px solid #eee;
+    border-radius: 3px;
+    width: 350px;
+}
+
+form .header{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+form .input-field{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+form .input-field label{
+    margin-bottom: 2px;
+}
+
+form .input-field input{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+
+form .input-field input:focus{
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+form button{
+    padding: 5px;
+    width: 100%;
+    margin: 5px 0;
+}
+
